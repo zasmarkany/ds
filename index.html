@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>ds by polygonal</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>ds</h1>
+        <p>data structures for game developers</p>
+
+        <p class="view"><a href="https://github.com/polygonal/ds">View the Project on GitHub <small>polygonal/ds</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/polygonal/ds/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/polygonal/ds/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/polygonal/ds">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Data Structures For Game Developers (ds)</h1>
+
+<p>Formerly known as "<em>AS3 Data Structures For Game Developers (AS3DS)</em>", the package contains parametrized classes that allow programmers to easily implement standard data structures like linked lists, queues, stacks or multi-dimensional arrays. The result is somewhere in between the C++ STL (Standard Template Library) and the Java Collection framework. The library is highly optimized and uses advanced Haxe features like inlining or code generation for parametrized classes through the haxe.rtti.Generics interface.</p>
+
+<h2>Installation</h2>
+
+<p>Install <a href="http://haxe.org/download">Haxe</a> and run <code>$ haxelib install polygonal-ds</code> from the console.
+This installs the polygonal-ds library hosted on <a href="http://lib.haxe.org/p/polygonal-ds">lib.haxe.org</a>, which always mirrors the git master branch. From now on just compile with <code>$ haxe ... -lib polygonal-ds</code>.
+If you want to test the latest beta build, you should pull the dev branch and add the src folder to the classpath via <code>$ haxe ... -cp src</code>.</p>
+
+<h2>Documentation</h2>
+
+<ul>
+<li>   Slides <a href="http://lab.polygonal.de/wp-content/assets/120111/introduction_to_ds.pdf">Introduction to ds - Data Structures For Games</a>
+</li>
+<li>   API <a href="http://polygonal.github.com/doc/ds/">http://polygonal.github.com/doc/ds/</a>
+</li>
+</ul><h2>Articles</h2>
+
+<ul>
+<li>   <a href="http://lab.polygonal.de/?p=1815">A* Pathfinding</a>
+</li>
+<li>   <a href="http://lab.polygonal.de/?p=1710">Heaps and Priority Queues</a>
+</li>
+<li>   <a href="http://lab.polygonal.de/?p=1472">What is a Deque?</a>
+</li>
+<li>   <a href="http://lab.polygonal.de/?p=1325">Fast hash tables</a>
+</li>
+<li>   <a href="http://lab.polygonal.de/?p=1230">Alchemy Memory Management</a>
+</li>
+</ul><h2>Cross-Platform Support</h2>
+
+<p>ds currently supports Flash AVM1+2, JavaScript, C++ and Neko</p>
+
+<h2>Conditional Compilation Flags</h2>
+
+<p><code>-D generic</code></p>
+
+<p>Enables generic classes (implements haxe.rtti.Generic). Optimization for strictly typed runtimes (AVM2), but increases file size.</p>
+
+<p><code>-D alchemy</code></p>
+
+<p>Enables fast virtual memory for FP10+ ("alchemy memory"). By default, memory access is replaced with arrays or the flash Vector class.</p>
+
+<p><code>-D doc</code></p>
+
+<p>Prevents less important inner classes from being documented.</p>
+
+<h2>Questions, Comments, Feature Requests...</h2>
+
+<p><a href="http://groups.google.com/group/polygonal-ds">http://groups.google.com/group/polygonal-ds</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/polygonal">polygonal</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
