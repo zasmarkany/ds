@@ -378,6 +378,8 @@ dd
 dd .param
 {
   font-family: 'Consolas', monospace;
+  color: #dc3912;
+  font-weight: bold;
 }
 dd code, .comment code, .doc p code
 {
