@@ -241,13 +241,29 @@ pre
 .doc
 {
   margin: 12px 0;
+  line-height: 2;
 }
 .doc p:first-child
 {
   font-size: 22px;
-  font-family: 'Segoe UI Light', 'Segoe UI', Helvetica, Geneva, sans-serif; 
+  font-family: 'Segoe UI Light', 'Segoe UI', Helvetica, Geneva, sans-serif;
   text-transform: uppercase;
 }
+
+.doc h1
+{
+  font-size: 16px;
+  font-family: 'Segoe UI', Helvetica, Geneva, sans-serif;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.doc p em
+{
+  font-family: 'Segoe UI Light', 'Segoe UI', Helvetica, Geneva, sans-serif; 
+  text-transform: none;
+}
+
 .doc ul
 {
   padding-left: 20px;
@@ -378,13 +394,14 @@ dd
 dd .param
 {
   font-family: 'Consolas', monospace;
-  color: #dc3912;
-  font-weight: bold;
+  color: black;
+  background-color: #ccc;
+  padding: 1px;
 }
+
 dd code, .comment code, .doc p code
 {
   font-family: 'Consolas', monospace;
-  font-weight: bold;
   padding: 1px;
 }
 dd ol
